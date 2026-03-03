@@ -11,19 +11,11 @@
           fetch="https://github.com/kenway214" />
   <remote name="SakilMondal"
           fetch="https://github.com/SakilMondal" />
-    <remote name="ThankYouMario"
+  <remote name="ThankYouMario"
           fetch="https://github.com/ThankYouMario" />
   
-  <remove-project name="LineageOS/android_packages_apps_ManagedProvisioning" />
-  <remove-project name="android_system_netd" />
-  <remove-project name="android_vendor_resurrection" />
   <remove-project name="packages_providers_MediaProvider" />
-  
-  <project path="system/netd" name="android_system_netd" remote="paiskomom" revision="Q" clone-depth="1" />
-  <project path="vendor/rr" name="android_vendor_resurrection" remote="paiskomom" revision="Q" clone-depth="1" />
-  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="paiskomom" revision="Q" clone-depth="1" />
   <project path="packages/apps/ManagedProvisioning" name="android_packages_apps_ManagedProvisioning" remote="paiskomom" revision="lineage-17.1" clone-depth="1" />
-  <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="ThankYouMario" revision="quartz" clone-depth="1" />
   
   <project path="device/xiaomi/whyred" name="device_xiaomi_whyred" remote="paiskomom" revision="lineage-17.1" />
   <project path="device/xiaomi/sdm660-common" name="device_xiaomi_sdm660-common" remote="paiskomom" revision="lineage-17.1" />
