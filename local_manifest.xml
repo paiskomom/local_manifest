@@ -14,7 +14,7 @@
   <remote name="ThankYouMario"
           fetch="https://github.com/ThankYouMario" />
   
-  <remove-project name="packages_providers_MediaProvider" />
+  <remove-project name="LineageOS/android_packages_apps_ManagedProvisioning" />
   <project path="packages/apps/ManagedProvisioning" name="android_packages_apps_ManagedProvisioning" remote="paiskomom" revision="lineage-17.1" clone-depth="1" />
   
   <project path="device/xiaomi/whyred" name="device_xiaomi_whyred" remote="paiskomom" revision="lineage-17.1" />
