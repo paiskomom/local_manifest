@@ -26,6 +26,5 @@
   <project path="kernel/xiaomi/surya" name="android_kernel_xiaomi_surya" remote="los" revision="lineage-20" clone-depth="1" />
   <project path="vendor/xiaomi/surya" name="proprietary_vendor_xiaomi_surya" remote="crdroid-gitlab" revision="13.0" clone-depth="1" />
   <project path="vendor/xiaomi/miuicamera" name="vendor_xiaomi_miuicamera" remote="shoya0x00" revision="main" clone-depth="1" />
-  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
-
+  
 </manifest>
