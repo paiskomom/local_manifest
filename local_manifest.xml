@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="paiskomom"
+          fetch="https://github.com/paiskomom" />                                                                                      
+  <remote name="los"
+          fetch="https://github.com/LineageOS" />                                                                                      
+  <remote name="mumpet"
+          fetch="https://gitlab.com/the-muppets" />
+  <remote name="kenway214"
+          fetch="https://github.com/kenway214" />
+  <remote name="SakilMondal"
+          fetch="https://github.com/SakilMondal" />
+  <remote name="ThankYouMario"
+          fetch="https://github.com/ThankYouMario" />
+  <remote name="Strix"
+          fetch="https://github.com/STRIX-Project" />
+  <remote name="rzy"
+          fetch="https://github.com/rayrzy-labs" />  
+  <remote name="kdrag0n"
+          fetch="https://github.com/kdrag0n" />
+
+  <!-- Trees -->
+  <project path="device/xiaomi/surya" name="device_xiaomi_whyred" remote="paiskomom" revision="ten-surya" />
+  <project path="kernel/xiaomi/surya" name="android_kernel_xiaomi_surya" remote="rzy" revision="silont" clone-depth="1" />
+  <project path="vendor/xiaomi/surya" name="android_vendor_xiaomi_surya" remote="rzy" revision="ten" clone-depth="1" />
+
+  <!-- Others -->
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" revision="master" remote="kdrag0n" clone-depth="1" />
+</manifest>
